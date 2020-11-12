@@ -19,3 +19,7 @@ user = {
 
 let name = getData <String> (user.name);
 let phone = getData <number> (user.phone);
+
+function isNumber<T>(arg: T): boolean {
+  return typeof arg === "number";
+}
