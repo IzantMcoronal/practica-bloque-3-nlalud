@@ -9,7 +9,13 @@ import {UserData} from "./user-data";
 let user : UserData;
 
 function getData <T> (arg: T): void{
-  console.log(arg);
+  
+  if (isNumber (arg)){
+    console.log("Mensaje1= Phone: " + arg)
+
+  }else{
+    console.log("Mensaje2= Name: " + arg)
+  }
 }
 user = {
   name: "Juancho",
