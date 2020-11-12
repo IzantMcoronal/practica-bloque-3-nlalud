@@ -8,8 +8,14 @@
 import {UserData} from "./user-data";
 let user : UserData;
 
+function getData <T> (arg: T): void{
+  console.log(arg);
+}
 user = {
-  name: ""
-  age:
-  phone:
+  name: "Juancho",
+  age: 22,
+  phone: 123412340
 };
+
+let name = getData <String> (user.name);
+let phone = getData <number> (user.phone);
