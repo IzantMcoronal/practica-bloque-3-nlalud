@@ -4,3 +4,12 @@
 // Para terminar, asignad un objeto literal (sin clase) a la variable "user" (con los datos que queráis pero que no dé erroes de tipo) y luego realizad dos llamadas a "getData". La primera llamada debe recibir por parámetros el valor de la propiedad "name" del usuario y la segunda el valor de "phone".
 // OPCIONAL: Dentro de "getData" añadid un condicional con una guarda para diferenciar cuando reciba un tipo "number" y sacar por consola mensajes distintos para las dos llamadas anteriormente mencionadas.
 // Ánimo que ya lo tenéis! 
+
+import {UserData} from "./user-data";
+let user : UserData;
+
+user = {
+  name: ""
+  age:
+  phone:
+};
